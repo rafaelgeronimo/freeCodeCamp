@@ -8,11 +8,11 @@ Most HTML elements have an opening tag and a closing tag.
 
 Opening tags look like this:
 
-<h1>
+`<h1>`
 
 Closing tags look like this:
 
-</h1>
+`</h1>`
 
 The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
 
@@ -21,5 +21,5 @@ Each challenge has tests you can run at any time by clicking the "Run tests" but
 ---
 Resolução:
 ```
-<h1>Hello</h1>
+<h1>Hello World</h1>
 ```
