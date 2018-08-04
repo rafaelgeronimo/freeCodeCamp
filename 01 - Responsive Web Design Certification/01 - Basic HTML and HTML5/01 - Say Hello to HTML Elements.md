@@ -19,7 +19,7 @@ The only difference between opening and closing tags is the forward slash after 
 Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
 
 ---
-Resolução:
+**Resolução**:
 ```
 <h1>Hello World</h1>
 ```
