@@ -4,6 +4,7 @@ Just like with hex code, you can mix colors in RGB by using combinations of diff
 Replace the hex codes in our `style` element with their correct RGB values.
 
 |Color|	RGB|
+|---|---|
 |Blue|	`rgb(0, 0, 255)`|
 |Red|	`rgb(255, 0, 0)`|
 |Orchid|	`rgb(218, 112, 214)`|

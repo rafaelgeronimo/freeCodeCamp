@@ -8,6 +8,7 @@ This reduces the total number of possible colors to around 4,000. But browsers w
 Go ahead, try using the abbreviated hex codes to color the correct elements.
 
 |Color|	Short Hex Code|
+|---|---|
 |Cyan|	`#0FF`|
 |Green|	`#0F0`|
 |Red|	`#F00`|
