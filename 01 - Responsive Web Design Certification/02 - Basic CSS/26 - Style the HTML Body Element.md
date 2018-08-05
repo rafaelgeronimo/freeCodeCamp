@@ -16,7 +16,9 @@ body {
 ---
 **Tips**:
 - Give your body element the background-color of black.
+
 - Make sure your CSS rule is properly formatted with both opening and closing curly brackets.
+
 - Make sure your CSS rule ends with a semi-colon.
 
 ---
