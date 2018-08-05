@@ -23,6 +23,7 @@ Note: It doesn't matter whether you declare this CSS above or below pink-text cl
 
 ---
 **Tips**:
+
 - Your `h1` element should have the class `pink-text`.
 
 - Your `h1` element should have the class `blue-text`.

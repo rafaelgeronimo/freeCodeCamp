@@ -5,29 +5,29 @@
 # Trilhas e Certificados
 
 ## 01. Responsive Web Design Certification (300 hours)
- - Basic HTML and HTML5 - 27/27 exercícios
- - Basic CSS - 43 exercícios
- - Applied Visual Design - 52 exercícios
- - Applied Accessibility - 22 exercícios
- - Responsive Web Design Principles - 4 exercícios
- - CSS Flexbox - 17 exercícios
- - CSS Grid - 22 exercícios
- - Responsive Web Design Projects - 5 exercícios
+ - Basic HTML and HTML5 - 27/27 
+ - Basic CSS - 43/43
+ - Applied Visual Design - 52
+ - Applied Accessibility - 22
+ - Responsive Web Design Principles - 4
+ - CSS Flexbox - 17
+ - CSS Grid - 22
+ - Responsive Web Design Projects - 5
 
 ## 02. JavaScript Algorithms and Data Structures Certification (300 hours)
- - Basic JavaScript - 107 exercícios
- - ES6 - 26 exercícios
- - Regular Expressions - 32 exercícios
- - Debugging - 12 exercícios
- - Basic Data Structures - 20 exercícios
- - Basic Algorithm Scripting - 16 exercícios
- - Object Oriented Programming - 26 exercícios
- - Functional Programming - 23 exercícios
- - Intermediate Algorithm Scripting - 21 exercícios
- - JavaScript Algorithms and Data Structures Projects - 5 exercícios
+ - Basic JavaScript - 107
+ - ES6 - 26
+ - Regular Expressions - 32
+ - Debugging - 12
+ - Basic Data Structures - 20
+ - Basic Algorithm Scripting - 16
+ - Object Oriented Programming - 26
+ - Functional Programming - 23
+ - Intermediate Algorithm Scripting - 21
+ - JavaScript Algorithms and Data Structures Projects - 5
 
 ## 03. Front End Libraries Certification (300 hours)
- - Bootstrap - 31 exercícios
+ - Bootstrap - 31
  - jQuery
  - Sass
  - React
