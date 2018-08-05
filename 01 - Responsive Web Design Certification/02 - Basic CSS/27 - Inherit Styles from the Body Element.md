@@ -12,11 +12,17 @@ Finally, give your `body` element the font-family of `monospace` by adding `font
 ---
 **Tips**:
 - Create an h1 element.
+
 - Your h1 element should have the text Hello World.
+
 - Make sure your h1 element has a closing tag.
+
 - Give your body element the color property of green.
+
 - Give your body element the font-family property of monospace.
+
 - Your h1 element should inherit the font monospace from your body element.
+
 - Your h1 element should inherit the color green from your body element.
 
 ---

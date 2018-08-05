@@ -11,6 +11,7 @@ Give your `h1` element the class of `pink-text`.
 
 ---
 **Tips**:
+
 - Your `h1` element should have the class `pink-text`.
 - Your `<style>` should have a `pink-text` CSS class that changes the `color`.
 - Your `h1` element should be pink.
