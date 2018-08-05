@@ -8,15 +8,17 @@ This reduces the total number of possible colors to around 4,000. But browsers w
 Go ahead, try using the abbreviated hex codes to color the correct elements.
 
 |Color|	Short Hex Code|
+|---|---|
 |Cyan|	`#0FF`|
 |Green|	`#0F0`|
 |Red|	`#F00`|
 |Fuchsia|	`#F0F`|
 
+
 ---
 **Tips**:
 
-- Give your `h1` element with the text `I am red!` the Â´ red.
+- Give your `h1` element with the text `I am red!` the ´ red.
 
 - Use the abbreviate `hex code` for the color red instead of the hex code `#FF0000`.
 
