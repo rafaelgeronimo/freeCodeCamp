@@ -12,6 +12,8 @@ The following table shows how the different `text-transform` values change the e
 |`none`|	**Default:** Use the original text|
 
 ---
+**Challenge**
+
 Transform the text of the `h4` to be uppercase using the `text-transform` property.
 
 ---
@@ -22,7 +24,7 @@ Transform the text of the `h4` to be uppercase using the `text-transform` proper
 - The original text of the h4 should not be changed.
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   h4 {

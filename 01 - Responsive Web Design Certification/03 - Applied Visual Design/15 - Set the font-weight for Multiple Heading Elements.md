@@ -3,6 +3,7 @@ You set the `font-size` of each heading tag in the last challenge, here you'll a
 The `font-weight` property sets how thick or thin characters are in a section of text.
 
 ---
+**Challenge**
 
 - Set the `font-weight` of the `h1` tag to 800.
 
@@ -32,7 +33,7 @@ The `font-weight` property sets how thick or thin characters are in a section of
 - Your code should set the `font-weight` property for the `h6` tag to 200.
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   h1 {

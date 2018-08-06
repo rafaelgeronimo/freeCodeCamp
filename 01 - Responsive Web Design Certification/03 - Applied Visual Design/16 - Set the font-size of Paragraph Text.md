@@ -1,6 +1,8 @@
 The `font-size` property in CSS is not limited to headings, it can be applied to any element containing text.
 
 ---
+**Challenge**
+
 Change the value of the `font-size` property for the paragraph to 16px to make it more visible.
 
 ---
@@ -9,7 +11,7 @@ Change the value of the `font-size` property for the paragraph to 16px to make i
 - Your `p` tag should have a `font-size` of 16 pixels.
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   p {

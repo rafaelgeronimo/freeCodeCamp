@@ -4,6 +4,7 @@ This method works for images, too. Images are inline elements by default, but ca
 
 ---
 **Challenge**
+
 Center the `div` on the page by adding a `margin` property with a value of auto.
 
 ---

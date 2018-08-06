@@ -13,6 +13,8 @@ The RGB values can range from 0 to 255. The alpha value can range from 1, which 
 You'll use background-color: `rgba(45, 45, 45, 0.1)` for this challenge. It produces a dark gray color that is nearly transparent given the low opacity value of 0.1.
 
 ---
+**Challenge**
+
 To make the text stand out more, adjust the `background-color` of the `h4` element to the given `rgba()` value.
 
 Also for the `h4`, remove the `height` property and add `padding` of 10px.
@@ -27,7 +29,8 @@ Also for the `h4`, remove the `height` property and add `padding` of 10px.
 - The `height` property on the `h4` element should be removed.
 
 ---
-**Resolution**:
+**Solution**:
+
 ```html
 <style>
   h4 {

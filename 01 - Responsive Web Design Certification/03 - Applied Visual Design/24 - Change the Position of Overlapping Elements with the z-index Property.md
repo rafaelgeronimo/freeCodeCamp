@@ -2,6 +2,7 @@ When elements are positioned to overlap, the element coming later in the HTML ma
 
 ---
 **Challenge**
+
 Add a `z-index` property to the element with the class name of `first` (the red rectangle) and set it to a value of 2 so it covers the other element (blue rectangle).
 
 ---

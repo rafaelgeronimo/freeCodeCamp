@@ -7,6 +7,8 @@ img {
 ```
 
 ---
+**Challenge**
+
 Add a `height` property to the `h4` tag and set it to 25px.
 
 ---

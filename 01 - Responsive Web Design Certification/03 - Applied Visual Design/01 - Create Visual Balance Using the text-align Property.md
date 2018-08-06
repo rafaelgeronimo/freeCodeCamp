@@ -11,6 +11,8 @@ Text is often a large part of web content. CSS has several options for how to al
 And `text-align: left;` (the default) left-aligns the text.
 
 ---
+**Challenge**
+
 Align the `h4` tag's text, which says "Google", to the center. Then justify the paragraph tag which contains information about how Google was founded.
 
 ---
@@ -21,7 +23,7 @@ Align the `h4` tag's text, which says "Google", to the center. Then justify the 
 - Your code should use the text-align property on the p tag to set it to justify.
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   h4 {

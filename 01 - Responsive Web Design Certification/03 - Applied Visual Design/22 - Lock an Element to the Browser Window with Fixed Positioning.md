@@ -4,6 +4,7 @@ One key difference from the `absolute` position is that the element won't move w
 
 ---
 **Challenge**
+
 The navigation bar in the code is labeled with an id of `navbar`. Change its `position` to `fixed`, and offset it 0 pixels from the `top` and 0 pixels from the `left`. Notice the (lack of) impact to the `h1` position, it hasn't been pushed down to accommodate the navigation bar and would need to be adjusted separately.
 
 ---

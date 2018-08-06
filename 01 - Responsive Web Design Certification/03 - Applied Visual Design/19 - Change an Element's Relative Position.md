@@ -16,6 +16,7 @@ Positioning gives you a lot of flexibility and power over the visual layout of a
 
 ---
 **Challenge**
+
 Change the `position` of the `h2` to `relative`, and use a CSS offset to move it 15 pixels away from the `top` of where it sits in the normal flow. Notice there is no impact on the positions of the surrounding h1 and p elements.
 
 ---
@@ -27,6 +28,7 @@ Change the `position` of the `h2` to `relative`, and use a CSS offset to move it
 
 ---
 **Solution**
+
 ```html
 <style>
   h2 {

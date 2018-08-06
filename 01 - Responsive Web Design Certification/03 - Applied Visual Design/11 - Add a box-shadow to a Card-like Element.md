@@ -9,6 +9,8 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 ```
 
 ---
+**Challenge**
+
 The element now has an id of `thumbnail`. With this selector, use the example CSS values above to place a `box-shadow` on the card.
 
 ---
@@ -19,7 +21,7 @@ The element now has an id of `thumbnail`. With this selector, use the example CS
 - You should use the given CSS for the `box-shadow` value.
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   h4 {

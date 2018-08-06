@@ -9,6 +9,8 @@ A value of 0 is completely transparent.
 The value given will apply to the entire element, whether that's an image with some transparency, or the foreground and background colors for a block of text.
 
 ---
+**Challenge**
+
 Set the `opacity` of the anchor tags to 0.7 using `links` class to select them.
 
 ---
@@ -17,7 +19,7 @@ Set the `opacity` of the anchor tags to 0.7 using `links` class to select them.
 - Your code should set the `opacity` property to 0.7 on the anchor tags by selecting the class of `links`.
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   h4 {

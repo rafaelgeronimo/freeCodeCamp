@@ -7,6 +7,8 @@ img {
 ```
 
 ---
+**Challenge**
+
 Add a `width` property to the entire card and set it to an absolute value of 245px. Use the `fullCard` class to select the element.
 
 ---
@@ -15,7 +17,7 @@ Add a `width` property to the entire card and set it to an absolute value of 245
 - Your code should change the `width` property of the card to 245 pixels by using the `fullCard` class selector.
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   h4 {

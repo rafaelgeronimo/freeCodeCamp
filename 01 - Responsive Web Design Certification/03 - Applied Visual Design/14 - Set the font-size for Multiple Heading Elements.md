@@ -1,6 +1,7 @@
 The `font-size` property is used to specify how large the text is in a given element. This rule can be used for multiple elements to create visual consistency of text on a page. In this challenge, you'll set the values for all `h1` through `h6` tags to balance the heading sizes.
 
 ---
+**Challenge**
 
 - Set the `font-size` of the `h1` tag to 68px.
 
@@ -30,7 +31,7 @@ The `font-size` property is used to specify how large the text is in a given ele
 - Your code should set the `font-size` property for the `h6` tag to 14 pixels.
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   h1{font-size:68px;}

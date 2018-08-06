@@ -1,6 +1,8 @@
 To underline text, you can use the `u` tag. This is often used to signify that a section of text is important, or something to remember. With the `u` tag, the browser applies the CSS of `text-decoration: underline;` to the element.
 
 ---
+**Challenge**
+
 Wrap the `u` tag around the text "Ph.D. students". It should not include the parent `div` that has the class of `cardText`.
 
 **Note**
@@ -16,7 +18,7 @@ Try to avoid using the `u` tag when it could be confused for a link. Anchor tags
 - The `u` tag should not wrap around the parent `div` tag.
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   h4 {

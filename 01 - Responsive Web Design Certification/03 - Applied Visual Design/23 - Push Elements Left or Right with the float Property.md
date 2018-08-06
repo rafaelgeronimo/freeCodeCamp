@@ -2,6 +2,7 @@ The next positioning tool does not actually use `position`, but sets the `float`
 
 ---
 **Challenge**
+
 The given markup would work well as a two-column layout, with the `section` and `aside` elements next to each other. Give the `#left` item a `float` of `left` and the `#right` item a `float` of `right`.
 
 ---

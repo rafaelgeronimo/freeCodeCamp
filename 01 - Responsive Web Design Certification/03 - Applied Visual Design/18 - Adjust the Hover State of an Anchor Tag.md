@@ -9,6 +9,8 @@ a:hover {
 ```
 
 ---
+**Challenge**
+
 The code editor has a CSS rule to style all `a` tags black. Add a rule so that when the user hovers over the `a` tag, the `color` is blue.
 
 ---
@@ -19,7 +21,7 @@ The code editor has a CSS rule to style all `a` tags black. Add a rule so that w
 - The anchor tag should have a `color` of blue on hover.
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   a {

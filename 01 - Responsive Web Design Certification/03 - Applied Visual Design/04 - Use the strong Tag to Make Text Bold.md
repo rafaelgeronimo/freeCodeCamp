@@ -1,6 +1,8 @@
 To make text bold, you can use the `strong` tag. This is often used to draw attention to text and symbolize that it is important. With the `strong` tag, the browser applies the CSS of `font-weight: bold;` to the element.
 
 ---
+**Challenge**
+
 Wrap a `strong` tag around "Stanford University" inside the `p` tag.
 
 ---
@@ -13,7 +15,7 @@ Wrap a `strong` tag around "Stanford University" inside the `p` tag.
 - The `strong` tag should wrap around the words "Stanford University".
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   h4 {

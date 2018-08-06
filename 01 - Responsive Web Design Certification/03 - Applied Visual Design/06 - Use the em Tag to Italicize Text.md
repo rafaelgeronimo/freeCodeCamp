@@ -1,6 +1,8 @@
 To emphasize text, you can use the `em` tag. This displays text as italicized, as the browser applies the CSS of `font-style: italic;` to the element.
 
 ---
+**Challenge**
+
 Wrap an `em` tag around the contents of the paragraph tag to give it emphasis.
 
 ---
@@ -11,7 +13,7 @@ Wrap an `em` tag around the contents of the paragraph tag to give it emphasis.
 - The `em` tag should wrap around the contents of the `p` tag but not the `p` tag itself.
 
 ---
-**Resolution**:
+**Solution**:
 ```html
 <style>
   h4 {

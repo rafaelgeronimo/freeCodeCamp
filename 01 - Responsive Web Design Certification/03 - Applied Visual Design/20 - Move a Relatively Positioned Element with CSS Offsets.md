@@ -4,6 +4,7 @@ The CSS offsets of `top` or `bottom`, and `left` or `right` tell the browser how
 
 ---
 **Challenge**
+
 Use CSS offsets to move the `h2` 15 pixels to the right and 10 pixels up.
 
 ---
@@ -15,6 +16,7 @@ Use CSS offsets to move the `h2` 15 pixels to the right and 10 pixels up.
 
 ---
 **Solution**
+
 ```html
 <head>
 <style>

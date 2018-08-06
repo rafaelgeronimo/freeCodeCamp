@@ -17,6 +17,7 @@ For all color challenges: Using color can be a powerful way to add visual intere
 
 ---
 **Challenge**
+
 Change the `background-color` property of the `blue` and `yellow` classes to their respective colors. Notice how the colors look different next to each other than they do compared against the white background.
 
 ---
