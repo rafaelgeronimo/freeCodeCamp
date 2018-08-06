@@ -5,9 +5,9 @@
 # Trilhas e Certificados
 
 ## 01. Responsive Web Design Certification (300 hours)
- - Basic HTML and HTML5 - 27/27 
- - Basic CSS - 43/43
- - Applied Visual Design - 52
+ - Basic HTML and HTML5 - 27/27 :white_check_mark:
+ - Basic CSS - 43/43 :white_check_mark:
+ - Applied Visual Design - 52/52 :white_check_mark:
  - Applied Accessibility - 22
  - Responsive Web Design Principles - 4
  - CSS Flexbox - 17
