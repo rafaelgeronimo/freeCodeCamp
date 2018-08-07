@@ -11,7 +11,7 @@
 - Applied Visual Design - 52/52 ✔
 - Applied Accessibility - 22/22 ✔
 - Responsive Web Design Principles - 4/4 ✔
-- CSS Flexbox - 17
+- CSS Flexbox - 17/17 ✔
 - CSS Grid - 22
 - Responsive Web Design Projects - 5
 
