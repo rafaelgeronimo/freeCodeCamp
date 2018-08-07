@@ -44,11 +44,9 @@ Camper Cat created a new survey to collect information about his users. He knows
   </header>
   <section>
     <form>
-      
-      
+
       <p tabindex="0">Instructions: Fill in ALL your information then click <b>Submit</b></p>
-      
-      
+
       <label for="username">Username:</label>
       <input type="text" id="username" name="username"><br>
       <fieldset>
