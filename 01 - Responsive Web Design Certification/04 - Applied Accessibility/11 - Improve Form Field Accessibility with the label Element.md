@@ -1,3 +1,5 @@
+# 11 - Improve Form Field Accessibility with the label Element
+
 Improving accessibility with semantic HTML markup applies to using both appropriate tag names as well as attributes. The next several challenges cover some important scenarios using attributes in forms.
 
 The `label` tag wraps the text for a specific form control item, usually the name or label for a choice. This ties meaning to the item and makes the form more readable. The `for` attribute on a `label` tag explicitly associates that `label` with the form control and is used by screen readers.
@@ -14,19 +16,22 @@ The value of the `for` attribute must be the same as the value of the `id` attri
 ```
 
 ---
-**Challenge**
+
+## Challenge
 
 Camper Cat expects a lot of interest in his thoughtful blog posts, and wants to include an email sign up form. Add a `for` attribute on the email `label` that matches the `id` on its `input` field.
 
 ---
-**Tips**
+
+## Tips
 
 - Your code should have a `for` attribute on the label tag that is not empty.
 
 - Your `for` attribute value should match the id value on the email input.
 
 ---
-**Solution**
+
+## Solution
 
 ```html
 <body>
@@ -36,12 +41,9 @@ Camper Cat expects a lot of interest in his thoughtful blog posts, and wants to 
   <section>
     <form>
       <p>Sign up to receive Camper Cat's blog posts by email here!</p>
-      
-      
+
       <label for="email">Email:</label>
       <input type="text" id="email" name="email">
-      
-      
       <input type="submit" name="submit" value="Submit">
     </form>
   </section>
