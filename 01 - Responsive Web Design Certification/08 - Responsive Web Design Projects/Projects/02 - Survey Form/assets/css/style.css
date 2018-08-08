@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    background-color: #607C8B;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 30px;
+}
+
+#title {
+    color: #FBDCC8;
+    font-weight: bold;
+}
+
+#main {
+    width: 800px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 5px;
+    color: #607C8B;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+    display: inline-block;
+    text-align: right;
+    width: 400px;
+    padding: 10px 10px 0px 0px;
+}
+
+.input {
+    display: inline-block;
+    text-align: left;
+    width: 350px;
+    padding: 10px 0px 0px 10px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    padding: 30px 0px 10px 0px;
+}
+
+button {
+    background-color: #607C8B;
+    color: #FFF;
+}
+
+@media (max-width:800px) and (min-width:400px) {
+    #main {
+        display: flex;
+        max-width: 700px;
+    }
+    .label {
+        
+        text-align: left;
+    }
+    .row {
+        
+    }
+}
+
+@media (max-width:400px) {
+    #main {
+        max-width: 375px;
+    }
+    .label {
+        width: 320px;
+        text-align: left;
+    }
+    .row {
+        
+    }
+}

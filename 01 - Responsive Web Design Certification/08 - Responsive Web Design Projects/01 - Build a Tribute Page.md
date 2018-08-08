@@ -34,4 +34,4 @@
 
 ## Solution
 
-[https://codepen.io/rafaelgeronimo/full/jperVQ/](https://codepen.io/rafaelgeronimo/full/jperVQ/)
+https://codepen.io/rafaelgeronimo/full/jperVQ/

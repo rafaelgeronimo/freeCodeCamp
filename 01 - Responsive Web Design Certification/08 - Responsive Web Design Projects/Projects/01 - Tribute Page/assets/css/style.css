@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EEE;
+    padding: 20px;
+  }
+  #image {
+    width: 400px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  #tribute-info {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #tribute-info li {
+    padding: 10px;
+    max-width: 600px;
+  }
+  footer {
+    display: flex;
+    padding: 30px;
+    background-color: #EEE;
+    justify-content: center;
+  }

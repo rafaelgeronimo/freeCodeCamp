@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FCC - 02 - A Survey Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <h1 id="title">Survey Form</h1>
+        </div>
+    </header>
+    <div id="main">
+        <div>
+            <p id="description"><em>Let us know how to improve this site</em></p>
+        </div>
+        <form action="" id="survey-form">
+            <div class="row">
+                <div class="label">
+                    <label for="name" id="name-label">Name:</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                    <label for="email" id="email-label">E-mail:</label>
+                </div>
+                <div class="input">
+                    <input type="email" id="email" placeholder="Enter your e-mail address" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                    <label for="age" id="number-label">Age:</label>
+                </div>
+                <div class="input">
+                    <input type="number" id="number" min="4" max="150" placeholder="Age">
+                </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                        <label>
+                                Which option best describes your current role?
+                        </label>
+                </div>
+                <div class="input">
+                    <select name="" id="dropdown">
+                        <option disabled value="choose">Choose One</option>
+                        <option value="student">Student</option>
+                        <option value="ftJob">Full Time Job</option>
+                        <option value="ftLearn">Full Time Learn</option>
+                        <option value="notToSay">Prefer Not To Say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                        <label>
+                                How likely is that you would recommend this site to a friend?
+                        </label>
+                </div>
+                <div class="input radio">
+                    <label>
+                        <input name="recommend" value="1" type="radio"> Definitely
+                    </label>
+                    <label>
+                        <input name="recommend" value="2" type="radio"> Maybe
+                    </label>
+                    <label>
+                        <input name="recommend" value="3" type="radio"> Not Sure
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                    <label>
+                            What do you like most in this site?
+                    </label>
+                </div>
+                <div class="input">
+                    <select name="" id="">
+                        <option disabled value="choose">Choose One</option>
+                        <option value="">Challenges</option>
+                        <option value="">Projects</option>
+                        <option value="">Community</option>
+                        <option value="">Open Source</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                    <label for="">Things that should be improved in the future
+                            <br>(Check all that apply):</label>
+                </div>
+                <div class="input checkbox">
+                    <label><input value="1" type="checkbox" name="improve"> Front End Projects</label>
+                    <label><input value="2" type="checkbox" name="improve"> Back End Projects</label>
+                    <label><input value="3" type="checkbox" name="improve"> Data Visualization</label>
+                    <label><input value="4" type="checkbox" name="improve"> Challenges</label>
+                    <label><input value="5" type="checkbox" name="improve"> Open Source Community</label>
+                    <label><input value="6" type="checkbox" name="improve"> Gitter Help Rooms</label>
+                    <label><input value="7" type="checkbox" name="improve"> Videos</label>
+                    <label><input value="8" type="checkbox" name="improve"> City Meetups</label>
+                    <label><input value="9" type="checkbox" name="improve"> Wiki</label>
+                    <label><input value="10" type="checkbox" name="improve"> Forum</label>
+                    <label><input value="11" type="checkbox" name="improve"> Additional Courses</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                    <label for="">Any Comments or Suggestions?</label>
+                </div>
+                <div class="input">
+                    <textarea name="comments" id="comments" cols="30" rows="4" placeholder="Enter your comment here..."></textarea>
+                </div>
+            </div>
+            <div class="row button">
+                <div class="button">
+                    <button class="btn" type="submit" id="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
