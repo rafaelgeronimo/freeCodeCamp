@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #353C44;
+    color: #EEE;
+    text-transform: uppercase;
+}
+
+#logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#links a{
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    color:#EEE;
+}
+
+#welcome-section {
+    background-image: url("../img/computer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    color: #EEE;
+}
+
+#welcome-section h1 {
+    font-size: 4.5em;
+    text-transform: uppercase;
+    padding-top: 120px;
+}
+
+#welcome-section h2 {
+    color: #AE9B8A;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-top: -50px;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    height: 100vh;
+    padding: 50px;
+}
+
+#projects h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+#fcc_projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 50px;
+}
+
+.project-tile a{
+    text-decoration: none;
+    color: #353C44;
+}
+
+.project-tile {
+    text-align: center;
+}
+
+.project-tile img {
+    max-width: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #353C44;
+    padding: 50px;
+}
+
+#contact h1 {
+    color: #FFF;
+    font-size: 32px;
+}
+
+#contact h2 {
+    color: #FFF;
+    font-size: 24px;
+}
+
+#social {
+    display: flex;
+    justify-content: space-between;
+    font-size: 56px;
+}
+
+#social div {
+    width: 2em;
+    padding: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #353C44;
+    font-size: 1.2em;
+}
+
+#footer p {
+    font-size: 1.4em;
+}
+
+@media only screen and (min-width:1052px) and (max-width:1730px) {
+    #welcome-section h1 {
+        font-size: 4.5em;
+        text-transform: uppercase;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (min-width:1052px) and (max-width:1342px) {
+    #welcome-section h1 {
+        font-size: 4.0em;
+        text-transform: uppercase;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:1052px) {
+    #welcome-section h1 {
+        font-size: 3.5em;
+        text-transform: uppercase;
+        padding-top: 50px;
+    }
+    
+    #welcome-section h2 {
+        color: #AE9B8A;
+        font-size: 2em;
+        text-transform: uppercase;
+        margin-top: -50px;
+    }
+    #projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #FFF;
+        height: auto;
+        padding: 50px;
+    }
+    #fcc_projects {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:500px)  {
+
+    #navbar {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        background-color: #353C44;
+        color: #EEE;
+        text-transform: uppercase;
+    }
+
+   
+
+    #welcome-section h1 {
+        font-size: 3.5em;
+        text-transform: uppercase;
+        padding-top: 50px;
+    }
+    
+    #welcome-section h2 {
+        color: #AE9B8A;
+        font-size: 2em;
+        text-transform: uppercase;
+        margin-top: -50px;
+    }
+    #projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #FFF;
+        height: auto;
+        padding: 50px;
+    }
+    #fcc_projects {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    
+    #logo {
+        display: none;
+    }
+    
+    #links a{
+        text-decoration: none;
+        padding: 0px 5px 0px 2px;
+        color:#EEE;
+    }
+    .project-tile img {
+        max-width: 300px;
+        margin: 0px;
+        padding: 0px;
+    }
+}

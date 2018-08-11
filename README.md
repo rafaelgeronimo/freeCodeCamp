@@ -13,7 +13,7 @@
 - Responsive Web Design Principles - 4/4 ✔
 - CSS Flexbox - 17/17 ✔
 - CSS Grid - 22/22 ✔
-- Responsive Web Design Projects - 4/5
+- Responsive Web Design Projects - 5/5 ✔
 
 ## 02. JavaScript Algorithms and Data Structures Certification (300 hours)
 
