@@ -15,6 +15,11 @@
 - CSS Grid - 22/22 ✔
 - Responsive Web Design Projects - 5/5 ✔
 
+### Certification: 
+https://www.freecodecamp.org/certification/rafaelgeronimo/responsive-web-design
+
+---
+
 ## 02. JavaScript Algorithms and Data Structures Certification (300 hours)
 
 - Basic JavaScript - 107
@@ -28,6 +33,8 @@
 - Intermediate Algorithm Scripting - 21
 - JavaScript Algorithms and Data Structures Projects - 5
 
+---
+
 ## 03. Front End Libraries Certification (300 hours)
 
 - Bootstrap - 31
@@ -38,11 +45,15 @@
 - React and Redux
 - Front End Libraries Projects
 
+---
+
 ## 04. Data Visualization Certification (300 hours)
 
 - Data Visualization with D3
 - JSON APIs and Ajax
 - Data Visualization Projects
+
+---
 
 ## 05. Apis and Microservices Certification (300 hours)
 
@@ -51,6 +62,8 @@
 - MongoDB and Mongoose
 - Apis and Microservices Projects
 
+---
+
 ## 06. Information Security and Quality Assurance Certification (300 hours)
 
 - Information Security with HelmetJS
@@ -58,9 +71,13 @@
 - Advanced Node and Express
 - Information Security and Quality Assurance Projects
 
+---
+
 ## Full Stack Development Certification
 
 Once you earn all 6 of these certifications, you'll be able to claim your freeCodeCamp Full Stack Development Certification. This final distinction signifies that you’ve completed around 1,800 hours of coding with a wide range of web development tools.
+
+---
 
 ## 07. Coding Interview Prep (Thousands of hours of challenges)
 
