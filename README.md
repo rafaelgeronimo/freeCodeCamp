@@ -22,7 +22,7 @@ https://www.freecodecamp.org/certification/rafaelgeronimo/responsive-web-design
 
 ## 02. JavaScript Algorithms and Data Structures Certification (300 hours)
 
-- Basic JavaScript - 107
+- Basic JavaScript - 5/107
 - ES6 - 26
 - Regular Expressions - 32
 - Debugging - 12
