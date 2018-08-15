@@ -2,7 +2,7 @@
 
 ## Resolução dos exercícios propostos
 
-## **Trilhas e Certificados**
+## Trilhas e Certificados
 
 ## 01. Responsive Web Design Certification (300 hours)
 
@@ -15,14 +15,15 @@
 - CSS Grid - 22/22 ✔
 - Responsive Web Design Projects - 5/5 ✔
 
-### Certification: 
-https://www.freecodecamp.org/certification/rafaelgeronimo/responsive-web-design
+### Certification
+
+[https://www.freecodecamp.org/certification/rafaelgeronimo/responsive-web-design](https://www.freecodecamp.org/certification/rafaelgeronimo/responsive-web-design)
 
 ---
 
 ## 02. JavaScript Algorithms and Data Structures Certification (300 hours)
 
-- Basic JavaScript - 72/107
+- Basic JavaScript - 88/107
 - ES6 - 26
 - Regular Expressions - 32
 - Debugging - 12
