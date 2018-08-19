@@ -24,7 +24,7 @@
 ## 02. JavaScript Algorithms and Data Structures Certification (300 hours)
 
 - Basic JavaScript - 107/107 ✔
-- ES6 - 07/26
+- ES6 - 09/26
 - Regular Expressions - 32
 - Debugging - 12
 - Basic Data Structures - 20
