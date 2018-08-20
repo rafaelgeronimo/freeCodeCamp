@@ -39,10 +39,10 @@ Modify the function `sum` so that it uses the rest operator and it works in the 
 ## Solution
 
 ```js
-function sum(...numbers) {
-    let answer = numbers.reduce((acc,val) => acc + val);
+function sum(...args) {
+    let answer = args.reduce((acc,val) => acc + val, 0);
     return answer;
 }
 
-sum(1,2,3);
+sum();
 ```
