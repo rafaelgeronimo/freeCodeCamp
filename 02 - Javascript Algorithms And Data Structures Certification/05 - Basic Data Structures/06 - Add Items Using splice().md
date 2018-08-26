@@ -15,12 +15,39 @@ colorScheme = colorChange(colorScheme, 2, '#332327');
 // colorScheme now equals ['#878787', '#a08794', '#332327', '#c9b6be', '#d1becf']
 ```
 
-This function takes an array of hex values, an index at which to remove an element, and the new color to replace the removed element with. The return value is an array containing a newly modified color scheme! While this example is a bit oversimplified, we can see the value that utilizing splice() to its maximum potential can have.
+This function takes an array of hex values, an index at which to remove an element, and the new color to replace the removed element with. The return value is an array containing a newly modified color scheme! While this example is a bit oversimplified, we can see the value that utilizing `splice()` to its maximum potential can have.
 
+---
 
-We have defined a function, htmlColorNames, which takes an array of HTML colors as an argument. Modify the function using splice() to remove the first two elements of the array and add 'DarkSalmon' and 'BlanchedAlmond' in their respective places.
+## Challenge
 
-htmlColorNames should return ["DarkSalmon", "BlanchedAlmond", "LavenderBlush", "PaleTurqoise", "FireBrick"]
-The htmlColorNames function should utilize the splice() method
-You should not use shift() or unshift().
-You should not use array bracket notation.
+We have defined a function, `htmlColorNames`, which takes an array of HTML colors as an argument. Modify the function using `splice()` to remove the first two elements of the array and add `'DarkSalmon'` and `'BlanchedAlmond'` in their respective places.
+
+---
+
+## Tips
+
+- `htmlColorNames` should return `["DarkSalmon", "BlanchedAlmond", "LavenderBlush", "PaleTurqoise", "FireBrick"]`
+
+- The `htmlColorNames` function should utilize the `splice()` method
+
+- You should not use `shift()` or `unshift()`.
+
+- You should not use array bracket notation.
+
+---
+
+## Solution
+
+```js
+function htmlColorNames(arr) {
+  // change code below this line
+  arr.splice(0,1,'DarkSalmon');
+  arr.splice(1,1,'BlanchedAlmond');
+  // change code above this line
+  return arr;
+} 
+ 
+// do not change code below this line
+console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurqoise', 'FireBrick']));
+```

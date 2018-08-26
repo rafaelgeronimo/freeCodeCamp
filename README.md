@@ -27,7 +27,7 @@
 - ES6 - 26/26 ✔
 - Regular Expressions - 32/32 ✔
 - Debugging - 12/12 ✔
-- Basic Data Structures - 06/20
+- Basic Data Structures - 10/20
 - Basic Algorithm Scripting - 16
 - Object Oriented Programming - 26
 - Functional Programming - 23
