@@ -28,7 +28,7 @@
 - Regular Expressions - 32/32 ✔
 - Debugging - 12/12 ✔
 - Basic Data Structures - 20/20 ✔
-- Basic Algorithm Scripting - 08/16
+- Basic Algorithm Scripting - 11/16
 - Object Oriented Programming - 26
 - Functional Programming - 23
 - Intermediate Algorithm Scripting - 21
