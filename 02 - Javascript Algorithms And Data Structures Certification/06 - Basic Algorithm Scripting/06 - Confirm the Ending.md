@@ -37,5 +37,19 @@ Remember to use Read-Search-Ask if you get stuck. Write your own code.
 ## Solution
 
 ```js
+function confirmEnding(str, target) {
+    var strLength = str.length;
+    var targetLength = target.length;
+    var res = str.substring(strLength - targetLength, strLength);
+    if(res === target){
+        return true;
+    }else{
+        return false;
+    }
+    //return str;
+}
 
+//confirmEnding("Bastian", "aan");
+//confirmEnding("Congratulation", "on");
+confirmEnding("Connor", "n");
 ```
