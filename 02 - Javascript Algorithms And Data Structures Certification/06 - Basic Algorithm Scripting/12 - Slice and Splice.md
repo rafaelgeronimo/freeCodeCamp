@@ -31,5 +31,16 @@ Remember to use Read-Search-Ask if you get stuck. Write your own code.
 ## Solution
 
 ```js
+function frankenSplice(arr1, arr2, n) {
+  // It's alive. It's alive!
+  let x = [...arr1];
+  let y = [...arr2];
+  for (let i in x){
+    y.splice(n,0,x[i]);
+    n++;
+  }
+  return y;
+}
 
+frankenSplice([1, 2, 3], [4, 5, 6], 1);
 ```
