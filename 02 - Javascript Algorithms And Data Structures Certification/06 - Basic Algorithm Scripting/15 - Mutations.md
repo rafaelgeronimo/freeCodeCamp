@@ -37,5 +37,17 @@ Remember to use Read-Search-Ask if you get stuck. Write your own code.
 ## Solution
 
 ```js
+function mutation(arr) {
+    let x = arr[0].toLowerCase();
+    let y = arr[1].toLowerCase();
+    for(let i = 0; i < y.length; i++){
+        if (x.indexOf(y[i]) === -1){
+            return false;
+        }
+    }
+    return true;
+}
 
+//mutation(["Hell0", "hEa"]);
+mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]);
 ```

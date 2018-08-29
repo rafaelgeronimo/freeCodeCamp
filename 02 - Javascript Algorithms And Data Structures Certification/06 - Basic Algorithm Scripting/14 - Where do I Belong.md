@@ -52,7 +52,7 @@ Remember to use Read-Search-Ask if you get stuck. Write your own code.
 function getIndexToIns(arr, num) {
   // Find my place in this sorted array.
   arr.push(num);
-  arr.sort((a, b) => a - b); 
+  arr.sort((a, b) => a - b);
   return arr.indexOf(num);
 }
 getIndexToIns([3, 10, 5], 3);
