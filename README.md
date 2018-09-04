@@ -30,7 +30,7 @@
 - Basic Data Structures - 20/20 ✔
 - Basic Algorithm Scripting - 16/16 ✔
 - Object Oriented Programming - 26/26 ✔
-- Functional Programming - 10/23
+- Functional Programming - 23/23 ✔
 - Intermediate Algorithm Scripting - 21
 - JavaScript Algorithms and Data Structures Projects - 5
 
