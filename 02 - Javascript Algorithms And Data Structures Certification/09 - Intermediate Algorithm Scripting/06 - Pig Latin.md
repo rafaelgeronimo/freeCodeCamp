@@ -33,5 +33,21 @@ Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write you
 ## Solution
 
 ```js
+function translatePigLatin(str) {
+    let myRegex = /[aeiou]/gi;
+     if(str.match(myRegex)){
+        if(str[0].match(myRegex)){
+            return str + "way";
+        }
+        else{
+            let firstVoewl = str.indexOf(str.match(myRegex)[0]);
+            return str.substr(firstVoewl) + str.substr(0, firstVoewl) + 'ay';
+        }
+     }else{
+         return str + "ay";
+     }
+}
 
+translatePigLatin("glove");
+//translatePigLatin("algorithm");
 ```
