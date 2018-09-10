@@ -32,5 +32,11 @@ Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write you
 ## Solution
 
 ```js
-
+function myReplace(str, before, after) {
+    if(before[0] === before[0].toUpperCase()){
+        after = after.charAt(0).toUpperCase() + after.substr(1);
+    }
+    return str.replace(before, after);
+}
+myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
