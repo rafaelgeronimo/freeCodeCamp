@@ -31,7 +31,7 @@
 - Basic Algorithm Scripting - 16/16 ✔
 - Object Oriented Programming - 26/26 ✔
 - Functional Programming - 23/23 ✔
-- Intermediate Algorithm Scripting - 10/21
+- Intermediate Algorithm Scripting - 13/21
 - JavaScript Algorithms and Data Structures Projects - 5
 
 ---
