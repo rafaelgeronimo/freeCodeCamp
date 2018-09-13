@@ -32,7 +32,7 @@
 - Object Oriented Programming - 26/26 ✔
 - Functional Programming - 23/23 ✔
 - Intermediate Algorithm Scripting - 13/21
-- JavaScript Algorithms and Data Structures Projects - 5
+- JavaScript Algorithms and Data Structures Projects - 03/05
 
 ---
 
