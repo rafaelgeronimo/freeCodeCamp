@@ -31,14 +31,14 @@
 - Basic Algorithm Scripting - 16/16 ✔
 - Object Oriented Programming - 26/26 ✔
 - Functional Programming - 23/23 ✔
-- Intermediate Algorithm Scripting - 13/21
-- JavaScript Algorithms and Data Structures Projects - 03/05
+- Intermediate Algorithm Scripting - 14/21
+- JavaScript Algorithms and Data Structures Projects - 04/05
 
 ---
 
 ## 03. Front End Libraries Certification (300 hours)
 
-- Bootstrap - 31
+- Bootstrap - 10/31
 - jQuery
 - Sass
 - React
