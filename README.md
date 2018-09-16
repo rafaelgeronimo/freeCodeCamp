@@ -38,7 +38,7 @@
 
 ## 03. Front End Libraries Certification (300 hours)
 
-- Bootstrap - 11/31
+- Bootstrap - 12/31
 - jQuery
 - Sass
 - React
