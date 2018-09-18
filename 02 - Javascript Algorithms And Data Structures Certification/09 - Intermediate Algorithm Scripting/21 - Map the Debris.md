@@ -12,5 +12,52 @@ The radius of the earth is 6367.4447 kilometers, and the GM value of earth is 39
 
 Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
 
-orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]) should return [{name: "sputnik", orbitalPeriod: 86400}].
-orbitalPeriod([{name: "iss", avgAlt: 413.6}, {name: "hubble", avgAlt: 556.7}, {name: "moon", avgAlt: 378632.553}]) should return [{name : "iss", orbitalPeriod: 5557}, {name: "hubble", orbitalPeriod: 5734}, {name: "moon", orbitalPeriod: 2377399}].
+---
+
+## Tips
+
+- `orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}])` should return `[{name: "sputnik", orbitalPeriod: 86400}]`.
+
+- `orbitalPeriod([{name: "iss", avgAlt: 413.6}, {name: "hubble", avgAlt: 556.7}, {name: "moon", avgAlt: 378632.553}])` should return `[{name : "iss", orbitalPeriod: 5557}, {name: "hubble", orbitalPeriod: 5734}, {name: "moon", orbitalPeriod: 2377399}]`.
+
+---
+
+## Solution
+
+```js
+function orbitalPeriod(arr) {
+  var GM = 398600.4418;
+  var earthRadius = 6367.4447;
+  var x = 2 * Math.PI;
+  var newArr = [];
+
+  var getOrbPeriod = function(obj) {
+    var y = Math.pow(earthRadius + obj.avgAlt, 3);
+    var z = Math.sqrt(y / GM);
+    var orbPeriod = Math.round(x * z);
+    delete obj.avgAlt;
+    obj.orbitalPeriod = orbPeriod;
+    return obj;
+  };
+
+  for (var elem in arr) {
+    newArr.push(getOrbPeriod(arr[elem]));
+  }
+
+  return newArr;
+}
+
+//orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);// should return [{name: "sputnik", orbitalPeriod: 86400}].
+
+orbitalPeriod([
+  {name: "iss", avgAlt: 413.6}, 
+  {name: "hubble", avgAlt: 556.7}, 
+  {name: "moon", avgAlt: 378632.553}
+]);
+
+/* should return 
+[{name : "iss", orbitalPeriod: 5557}, 
+{name: "hubble", orbitalPeriod: 5734}, 
+{name: "moon", orbitalPeriod: 2377399}].
+*/
+```
