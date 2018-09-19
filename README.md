@@ -32,7 +32,10 @@
 - Object Oriented Programming - 26/26 ✔
 - Functional Programming - 23/23 ✔
 - Intermediate Algorithm Scripting - 21/21 ✔
-- JavaScript Algorithms and Data Structures Projects - 04/05
+- JavaScript Algorithms and Data Structures Projects - 05/05 ✔
+
+### Certification
+[https://www.freecodecamp.org/certification/rafaelgeronimo/javascript-algorithms-and-data-structures](https://www.freecodecamp.org/certification/rafaelgeronimo/javascript-algorithms-and-data-structures)
 
 ---
 
