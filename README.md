@@ -41,39 +41,39 @@
 
 ## 03. Front End Libraries Certification (300 hours)
 
-- Bootstrap - 12/31
-- jQuery
-- Sass
-- React
-- Redux
-- React and Redux
-- Front End Libraries Projects
+- Bootstrap - 18/31
+- jQuery - 18
+- Sass - 09
+- React - 48
+- Redux - 17
+- React and Redux - 10
+- Front End Libraries Projects - 05
 
 ---
 
 ## 04. Data Visualization Certification (300 hours)
 
-- Data Visualization with D3
-- JSON APIs and Ajax
-- Data Visualization Projects
+- Data Visualization with D3 - 29
+- JSON APIs and Ajax - 09
+- Data Visualization Projects - 05
 
 ---
 
 ## 05. Apis and Microservices Certification (300 hours)
 
-- Managing Packages with Npm
-- Basic Node and Express
-- MongoDB and Mongoose
-- Apis and Microservices Projects
+- Managing Packages with Npm - 10
+- Basic Node and Express - 12
+- MongoDB and Mongoose - 12
+- Apis and Microservices Projects - 05
 
 ---
 
 ## 06. Information Security and Quality Assurance Certification (300 hours)
 
-- Information Security with HelmetJS
-- Quality Assurance and Testing with Chai
-- Advanced Node and Express
-- Information Security and Quality Assurance Projects
+- Information Security with HelmetJS - 14
+- Quality Assurance and Testing with Chai - 24
+- Advanced Node and Express - 22
+- Information Security and Quality Assurance Projects - 05
 
 ---
 
@@ -85,8 +85,8 @@ Once you earn all 6 of these certifications, you'll be able to claim your freeCo
 
 ## 07. Coding Interview Prep (Thousands of hours of challenges)
 
-- Algorithms
-- Data Structures
-- Take Home Projects
-- Rosetta Code
-- Project Euler
+- Algorithms - 09
+- Data Structures - 47
+- Take Home Projects - 20
+- Rosetta Code - 87
+- Project Euler - 480
