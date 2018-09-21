@@ -43,7 +43,7 @@
 
 - Bootstrap - 31/31 ✔
 - jQuery - 18/18 ✔
-- Sass - 09
+- Sass - 03/09
 - React - 48
 - Redux - 17
 - React and Redux - 10
