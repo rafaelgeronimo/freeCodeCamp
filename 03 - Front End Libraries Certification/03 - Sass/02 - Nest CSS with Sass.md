@@ -20,7 +20,7 @@ nav ul li {
 
 For a large project, the CSS file will have many lines and rules. This is where `nesting` can help organize your code by placing child style rules within the respective parent elements:
 
-```css
+```scss
 nav {
   background-color: red;
 

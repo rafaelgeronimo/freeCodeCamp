@@ -17,7 +17,7 @@ It's a lot of typing to re-write this rule for all the elements that have a `box
 
 `Mixins` are like functions for CSS. Here is how to write one:
 
-```css
+```scss
 @mixin box-shadow($x, $y, $blur, $c){
   -webkit-box-shadow: $x, $y, $blur, $c;
   -moz-box-shadow: $x, $y, $blur, $c;
@@ -30,7 +30,7 @@ The definition starts with `@mixin` followed by a custom name. The parameters (t
 
 Now any time a `box-shadow` rule is needed, only a single line calling the `mixin` replaces having to type all the vendor prefixes. A `mixin` is called with the `@include` directive:
 
-```css
+```scss
 div {
   @include box-shadow(0px, 0px, 4px, #fff);
 }

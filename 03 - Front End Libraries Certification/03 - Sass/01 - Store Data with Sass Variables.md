@@ -6,7 +6,7 @@ In JavaScript, variables are defined using the `let` and `const` keywords. In Sa
 
 Here are a couple examples:
 
-```css
+```scss
 $main-fonts: Arial, sans-serif;
 $headings-color: green;
 
