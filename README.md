@@ -44,7 +44,7 @@
 - Bootstrap - 31/31 ✔
 - jQuery - 18/18 ✔
 - Sass - 09/09 ✔
-- React - 14/48
+- React - 19/48
 - Redux - 17
 - React and Redux - 10
 - Front End Libraries Projects - 05

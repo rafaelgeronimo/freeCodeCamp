@@ -1,0 +1,78 @@
+# Pass an Array as Props
+
+The last challenge demonstrated how to pass information from a parent component to a child component as `props` or properties. This challenge looks at how arrays can be passed as `props`. To pass an array to a JSX element, it must be treated as JavaScript and wrapped in curly braces.
+
+```js
+<ParentComponent>
+  <ChildComponent colors={["green", "blue", "red"]} />
+</ParentComponent>
+```
+
+The child component then has access to the array property `colors`. Array methods such as `join()` can be used when accessing the property.
+
+```js
+const ChildComponent = (props) => <p>{props.colors.join(', ')}</p>
+```
+
+This will join all `colors` array items into a comma separated string and produce:
+
+```html
+<p>green, blue, red</p>
+```
+
+Later, we will learn about other common methods to render arrays of data in React.
+
+---
+
+## Challenge
+
+There are `List` and `ToDo` components in the code editor. When rendering each `List` from the `ToDo` component, pass in a `tasks` property assigned to an array of to-do tasks, for example `["walk dog", "workout"]`. Then access this `tasks` array in the `List` component, showing its value within the `p` element. Use `join(", ")` to display the `props.tasks` array in the `p` element as a comma separated list. Today's list should have at least 2 tasks and tomorrow's should have at least 3 tasks.
+
+---
+
+## Tips
+
+- The `ToDo` component should return a single outer `div`.
+
+- The third child of the `ToDo` component should be an instance of the `List` component.
+
+- The fifth child of the `ToDo` component should be an instance of the `List` component.
+
+- Both instances of the `List` component should have a property called `tasks` and `tasks` should be of type array.
+
+- The first `List` component representing the tasks for today should have 2 or more items.
+
+- The second `List` component representing the tasks for tomorrow should have 3 or more items.
+
+- The `List` component should render the value from the `tasks` prop in the `p` tag.
+
+---
+
+## Solution
+
+```js
+const List= (props) => {
+  { /* change code below this line */ }
+  return <p>{props.tasks.join(', ')}</p>
+  { /* change code above this line */ }
+};
+
+class ToDo extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <h1>To Do Lists</h1>
+        <h2>Today</h2>
+        { /* change code below this line */ }
+        <List tasks = { ["walk dog", "workout"] } />
+        <h2>Tomorrow</h2>
+        <List tasks = { ["walk dog", "workout", "sleep"] } />
+        { /* change code above this line */ }
+      </div>
+    );
+  }
+};
+```
